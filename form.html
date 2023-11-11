@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <h1><center>Book a Free Consultation</center></h1>
+    <style> 
+      .title {
+        text-align: center;
+      }
+      #form {
+        padding: 15px;
+        background-color: #fefefe;
+        border-radius: 5px;
+        width: 100;
+      }
+      label {
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+      input,
+      textarea {
+        display: inline-block;
+        margin-bottom: 10px;
+        border: none;
+        padding: 5px;
+        background-color: #e5efef;
+        border-radius: 3px;
+        width: 100%;
+      }
+      .check {
+        width: 5%;
+      }
+
+      .btn{
+        osition: relative;
+    background: #07cba0;
+    color: white;
+    font-family: var(--ff-poppins);
+    font-size: var(--fs-5);
+    text-transform: var(--text-transform, capitalize);
+    border: 1px solid var(--yellow-green);
+    padding: 10px 20px;
+    z-index: 1;
+       }
+
+       input[type-number]:placeholder-shown {
+        background-color: aqua;
+       }
+
+       input:enabled
+    </style>
+  </head>
+  <body>
+    <form
+      class="flex flex-col bg-green-400"
+      action="result.html"
+      target="_blank"
+      method="GET"
+      autocomplete="on"
+      id="form"
+    >
+      <label class="text-center text-[30px]" for=""> Nama</label><br />
+      <input class="border-2 border-red-400" type="text" /> <br />
+
+      <label for=""> Kelas di timedoor</label><br />
+      <input type="email" /> <br />
+
+      <label for="">Password</label><br />
+      <input 
+      type="password"
+      placeholder="jangan masukkan pass tanggal lahir"/> <br />
+
+      <label for=""> Umur</label><br />
+      <input type="number" min="1" max="10" /> <br />
+
+      <label for=""> Gender</label><br />
+      <input type="radio" class="check" />
+      <label for="">Man</label> <br />
+      <input type="radio" class="check" />
+      <label for="">Female</label> <br />
+
+      <label for=""> Programming</label><br />
+      <input type="checkbox" class="check" />
+      <label for="">HTML</label> <br />
+      <input type="checkbox" class="check" />
+      <label for="">CSS</label> <br />
+
+      <label for=""> File</label><br />
+      <input type="file" /> <br />
+
+      <label for="address">Alamat</label>
+      <textarea name="address" id="address" cols="20" rows="10"></textarea>
+
+      <label for="country">Country</label><br />
+      <select name="country" id="country">
+        <option value="singapore">Singapore</option>
+        <option value="indonesia">Indonesia</option>
+        <option value="japan">Japan</option>
+      </select>
+
+      <input class="btn" type="submit" title="ayam" />
+      
+    </form>
+  </body>
+</html>

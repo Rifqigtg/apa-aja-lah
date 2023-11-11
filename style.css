@@ -700,7 +700,7 @@ footer {
 }
 
 .all-projects {
-  margin: 5%;
+  margin-top: 5%;
 }
 
 .project-detail {
@@ -755,14 +755,15 @@ p.project-link {
 
 .rocket-container {
   position: relative;
-  /* margin-top: 100px; */
-  /* width: 300px; */
-  /* background-color: lightblue; */
+   margin-top: 100px; */
+   width: 300px; */
+   background-color: lightblue; */
 }
 
 .rocket-container img {
   position: absolute;
-  width: 180px;
+  width: 10px;
+  height: 10px;
   top: 0;
   right: 0;
   transform: translateY(-50%);
@@ -1081,3 +1082,27 @@ p.project-link {
     margin: 5px;
   }
 }
+
+.contact-container {
+  justify-content: ;
+
+}
+
+.illustration-img {
+
+}
+
+.contact {
+  display: inline-block;
+  margin: 10px 30px;
+  text-align: center;
+}
+
+.profile-contact-img {
+  width: 200px;
+}
+
+.form-container{
+  display: flex;
+}
+
